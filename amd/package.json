@@ -1,0 +1,15 @@
+{
+  "name": "amd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc && lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.6"
+  }
+}

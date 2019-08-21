@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "outFile": "./bundle.js",
+    "strict": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "inlineSources": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
