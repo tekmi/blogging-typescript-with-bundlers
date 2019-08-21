@@ -11,6 +11,6 @@ export default class Family {
     }
 
     printNames(): void {
-        this.members.forEach(member => console.log(`${member.constructor.name}: ${member.getName()}`));
+        this.members.forEach(member => console.log(member.getName()));
     }
 }
