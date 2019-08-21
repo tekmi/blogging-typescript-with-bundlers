@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typescript with SystemJS 5.x</title>
+    <script src="./node_modules/systemjs/dist/system.js"></script>
+    <script src="./node_modules/systemjs/dist/extras/named-register.js"></script>
+</head>
+<body>
+<script>
+    System.import('./bundle.js')
+      .then(() => System.import('systemjs/app'))
+      .catch(console.error.bind(console))
+</script>
+</body>
+</html>

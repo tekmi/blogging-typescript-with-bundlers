@@ -1,0 +1,15 @@
+{
+  "name": "systemjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "dependencies": {
+    "systemjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
