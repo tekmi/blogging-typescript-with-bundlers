@@ -11,7 +11,3 @@ Bootstrapping Typescript with Bundling system such as: SystemJS, AMD
     yarn install
     tsc
     yarn dev
-
-## With AMD
-    cd amd
-    yarn install
