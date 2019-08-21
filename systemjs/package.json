@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc && lite-server"
+    "dev": "tsc && lite-server",
+    "watch": "tsc -w"
   },
   "dependencies": {
     "systemjs": "^5.0.0"
